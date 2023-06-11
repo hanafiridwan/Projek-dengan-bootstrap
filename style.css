@@ -1,0 +1,52 @@
+html {
+    position: relative;
+}
+
+body {
+    margin-bottom: 100px;
+}
+
+.jumbotron {
+    width: 1000px;
+    margin-left: 9.5%;
+}
+
+.container {
+    background-color: rgb(189, 189, 242);
+}
+
+
+.col-sm-4 a{
+    color: black;
+    text-align: center;
+}
+
+.glyphicon {
+    background-color: rgb(232, 229, 234);
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+}
+
+.glyphicon .glyphicon-search {
+    margin-right: 10px;
+}
+
+.container2 {
+    margin-top: 10px;
+    margin-left: 18px;
+    background-color: black;
+    width: 1170px;
+    height: 50px;
+}
+
+.paragraph {
+    color: aliceblue;
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav ul .pagination {
+    position: absolute;
+    justify-content: center;
+}
