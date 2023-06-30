@@ -1,52 +1,41 @@
-html {
-    position: relative;
-}
+.navbar-nav{
+    margin-left: 50px;
+  }
 
-body {
-    margin-bottom: 100px;
-}
-
-.jumbotron {
+  .jumbotron {
     width: 1000px;
-    margin-left: 9.5%;
-}
+    margin-left: 100px;
+    border-radius: 30px;
+  }
 
-.container {
-    background-color: rgb(189, 189, 242);
-}
+  .container {
+    background-color: aqua;
+  }
 
-
-.col-sm-4 a{
+  .row {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 80px;
+    text-align: center;
     color: black;
-    text-align: center;
-}
+  }
 
-.glyphicon {
-    background-color: rgb(232, 229, 234);
-    border-radius: 50px;
-    height: 50px;
-    width: 50px;
-}
+  .glyphicon {
+    border-radius: 50%;
+  }
 
-.glyphicon .glyphicon-search {
-    margin-right: 10px;
-}
-
-.container2 {
-    margin-top: 10px;
-    margin-left: 18px;
-    background-color: black;
-    width: 1170px;
-    height: 50px;
-}
-
-.paragraph {
+  .panel-primary{
+    background-color: #337ab7;
     color: aliceblue;
-    text-align: center;
-    margin-top: 10px;
-}
+  }
 
-nav ul .pagination {
-    position: absolute;
+  .panel-footer {
+    height: 80px;
+    text-align: center;
     justify-content: center;
-}
+    margin-top: 20px;
+  }
+
+  .pagination {
+    margin-left: 40%;
+  }
